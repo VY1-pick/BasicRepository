@@ -12,15 +12,15 @@ Create a basic repository for ASP.Net MVC sites
 <h2>مدیریت PickRepository :</h2>
 <h3>افزودن کلاس :</h3>
 <h4>برای افزودن کلاس دیگر فقط باید قطعه کد زیر را به فایل اضافه کنید و تنها کافیست ShopNameRepository<نام کلاس> را تغییر دهید</h4>
-<h5>private ShopNameRepository<FAQ> _faqRepository;
-public ShopNameRepository<FAQ> FaqRepository
-{
-    get
-    {
-        if (_faqRepository==null)
-        {
-            _faqRepository = new ShopNameRepository<FAQ>(_db);
-        }
-        return _faqRepository;
-    }
-}</h5>
+<h5>private ShopNameRepository<FAQ> _faqRepository; <br />
+public ShopNameRepository<FAQ> FaqRepository <br />
+{ <br />
+    get <br />
+    { <br />
+        if (_faqRepository==null) <br />
+        { <br />
+            _faqRepository = new ShopNameRepository<FAQ>(_db); <br />
+        } <br />
+        return _faqRepository; <br />
+    } <br />
+}</h5> <br />
