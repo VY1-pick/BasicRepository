@@ -13,16 +13,16 @@ Create a basic repository for ASP.Net MVC sites
 <h3>افزودن کلاس :</h3>
 <h4>برای افزودن کلاس دیگر فقط باید قطعه کد زیر را به فایل اضافه کنید و تنها کافیست ShopNameRepository<نام کلاس> را تغییر دهید</h4>
 <h4>میتوانید برای قابل فهم تر شدن برنامه نام ریپازیتوری را با نام کلاس یکی کنید</h4>
-<pre>private ShopNameRepository<نام کلاس> _faqRepository;
-public ShopNameRepository<نام کلاس> FaqRepository
+<pre>private ShopNameRepository<نام کلاس> _nameRepository;
+public ShopNameRepository<نام کلاس> NameRepository
 {
     get
     { 
-        if (_faqRepository==null)
+        if (_nameRepository==null)
         {
-            _faqRepository = new ShopNameRepository<نام کلاس>(_db);
+            _nameRepository = new ShopNameRepository<نام کلاس>(_db);
         }
-        return _faqRepository;
+        return _nameRepository;
     }
 }</pre>
 <h4>یک نمونه از کد ویرایش شده (کلاس : User)</h4>
