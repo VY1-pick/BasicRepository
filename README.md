@@ -12,7 +12,7 @@ Create a basic repository for ASP.Net MVC sites
 <h2>مدیریت PickRepository :</h2>
 <h3>افزودن کلاس :</h3>
 <h4>برای افزودن کلاس دیگر فقط باید قطعه کد زیر را به فایل اضافه کنید و تنها کافیست ShopNameRepository<نام کلاس> را تغییر دهید</h4>
-<h4>میتوانید برای قابل فهم تر شدن برنامه نام ریپازیتوری را نام کلاس قرار دهید</h4>
+<h4>میتوانید برای قابل فهم تر شدن برنامه نام ریپازیتوری را با نام کلاس یکی کنید</h4>
 <pre>private ShopNameRepository<نام کلاس> _faqRepository;
 public ShopNameRepository<نام کلاس> FaqRepository
 {
@@ -23,5 +23,18 @@ public ShopNameRepository<نام کلاس> FaqRepository
             _faqRepository = new ShopNameRepository<نام کلاس>(_db);
         }
         return _faqRepository;
+    }
+}</pre>
+<h4>یک نمونه از کد ویرایش شده (کلاس : User)</h4>
+<pre>private DigiRepository<User> _userRepository;
+public DigiRepository<User> UserRepository
+{
+    get
+    { 
+        if (_userRepository==null)
+        {
+            _userRepository = new DigiRepository<User>(_db);
+        }
+        return _userRepository;
     }
 }</pre>
