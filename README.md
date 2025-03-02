@@ -2,6 +2,7 @@
 Create a basic repository for ASP.Net MVC sites
 <br />
 <br />
+<br />
 <h2>فایل GenericRepository :</h2>
 <h4>کلاس هایی وجود دارند که عملیات CRUD را انجام میدهند.</h4>
 <br />
