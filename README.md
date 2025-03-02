@@ -38,3 +38,6 @@ public DigiRepository<User> UserRepository
         return _userRepository;
     }
 }</pre>
+                <br />
+<h3>حذف کلاس :</h3>
+<h4>برای حذف کلاس فقط کافیست قطعه کد مربوط به آن را حذف کنید و به این ترتیب دیگر امکان استفاده از ریپازیتوری برای آن کلاس نخواهد بود</h4>
